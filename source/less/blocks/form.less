@@ -1,0 +1,61 @@
+.form {
+	text-align: center;
+}
+
+.form__text {
+	margin: 0;
+	margin-bottom: 5px;
+
+	font-family: Ubuntu;
+	font-size: 18px;
+	line-height: 25px;
+	color: @black-three;
+}
+.form__phone-input {
+	width: 182px;
+	height: 39px;
+	
+	margin-bottom: 10px;
+	padding-top: 12px;
+	padding-bottom: 11px;
+	padding-right: 10px;
+	padding-left: 14px;
+
+	font-family: Ubuntu;
+	font-size: 16px;
+	line-height: 16px;
+
+	color: @black-two;
+
+	border: 1px solid @warm-grey;
+
+	box-shadow: inset 3.5px 3.5px 5.6px 0.4px #00000019;
+}
+
+.form__button {
+	width: 182px;
+	height: 39px;
+	margin: 0;
+	padding: 0;
+
+	font-family: Ubuntu;
+	font-size: 18px;
+	line-height: 18px;
+	text-align: center;
+	color: @white;
+
+	border: none;
+	background-color: @tea;
+}
+
+@media (min-width: @tablet-width) {
+	.form__phone-input {
+		margin-right: 18px;
+	}
+}
+
+@media (min-width: @desktop-width) {
+	.form {
+		text-align: left;
+	}
+}
